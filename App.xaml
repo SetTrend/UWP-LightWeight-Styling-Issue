@@ -8,6 +8,9 @@
 			<ResourceDictionary.MergedDictionaries>
 				<ResourceDictionary Source="Dictionary1.xaml"/>
 			</ResourceDictionary.MergedDictionaries>
+			<Style TargetType="Page">
+				<Setter Property="Background" Value="{ThemeResource ApplicationPageBackgroundThemeBrush}" />
+			</Style>
 		</ResourceDictionary>
 	</Application.Resources>
 </Application>
